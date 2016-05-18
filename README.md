@@ -17,5 +17,5 @@ Once the server is running locally open up the MixMax dashboard and add a new Li
 | Key 	             | Value                                         |
 |--------------------|-----------------------------------------------|
 | Description        | Hacker News (news.ycombinator.com/items?id=*) |
-| Regular Expression | news\.ycombinator\.com\/item\?id=[0-9]+$      |
+| Regular Expression | news\\.ycombinator\\.com\/item\?id=[0-9]+$    |
 | Resolver API URL   | http://localhost:9146/resolver                |
