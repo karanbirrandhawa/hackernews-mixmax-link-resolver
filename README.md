@@ -1,1 +1,19 @@
-Logo borrowed from https://fvcproductions.gitbooks.io/cs-and-english/content/resources/useful.html
+# Hacker News Link Resolver for MixMax
+
+This is an open source Mixmax Link Resolver. See http://sdk.mixmax.com/docs/tutorial-giphy-link-preview for more information about MixMax Link Resolvers.
+
+
+## Running locally
+
+1. Install using `npm install`
+2. Run using `npm start`
+
+## Adding to MixMax
+
+Once the server is running locally open up the MixMax dashboard and add a new Link Resolver with the following information:
+
+| Key 	             | Value                                         |
+|--------------------|-----------------------------------------------|
+| Description        | Hacker News (news.ycombinator.com/items?id=*) |
+| Regular Expression | news\.ycombinator\.com\/item\?id=[0-9]+$      |
+| Resolver API URL   | http://localhost:9146/resolver                |
