@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "Karanbir Randhawa",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.7.1",
     "express": "^4.13.4",
+    "request": "^2.72.0",
     "synchronize": "^0.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
   }
 }
